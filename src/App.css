@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.row{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+}
+.activeColor{
+    /* padding-top:5px; */
+    border: 2px solid grey;
+    cursor: pointer;
+    padding: 9px 25px;
+    background: rgb(0, 89, 124);
+    color: #fff;
+}
+.pointer{
+    cursor: pointer;
+    padding: 9px 25px;
+    background: bisque;
+    color: #000;
+    border: 2px solid transparent;
+}
+img.MuiCardMedia-root {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    margin: 0 auto;
+}
